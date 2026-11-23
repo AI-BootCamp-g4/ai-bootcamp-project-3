@@ -221,3 +221,18 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+.env*
+!.env.example
+data/raw/
+data/processed/
+data/vector_index/
+*.csv
+*.parquet
+*.faiss
+*.index
+*.npy
+*.npz
+*.sqlite
+*.db
+*.pkl
+*.joblib
