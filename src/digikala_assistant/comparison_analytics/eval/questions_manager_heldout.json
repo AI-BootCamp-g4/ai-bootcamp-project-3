@@ -1,0 +1,410 @@
+[
+ {
+  "id": "H-google-0",
+  "writer": "google/gemini-2.5-flash",
+  "question": "ببین، تو اسباب‌بازی‌ها، کدوم برندها بیشتر از بقیه بازخورد مثبت گرفتن؟ یعنی ملت عاشقشون شدن.",
+  "intent": "brands",
+  "category": "اسباب بازی",
+  "style": "heldout",
+  "reviewed": true,
+  "gold": {
+   "best_brand": "هوپا",
+   "worst_brand": "دنیای سرگرمی های کمیاب",
+   "significant": true
+  }
+ },
+ {
+  "id": "H-google-1",
+  "writer": "google/gemini-2.5-flash",
+  "question": "می‌تونی بگی تو بخش کرم و سرم، کدوم محصولات با اینکه ریویو زیاد دارن، اما درصد پیشنهاد خریدشون پایینه؟ اینا مشکوکن.",
+  "intent": "low_recommendation",
+  "category": "مراقبت پوست",
+  "style": "heldout",
+  "reviewed": true,
+  "gold": {
+   "top_products": [
+    262958,
+    226782,
+    4182580
+   ]
+  }
+ },
+ {
+  "id": "H-google-2",
+  "writer": "google/gemini-2.5-flash",
+  "question": "شکایتای اصلی کاربرها از لباس زنانه چیه؟ مثلا میگن سایزش بده یا جنسش خوب نیست؟",
+  "intent": "complaints",
+  "category": "لباس زنانه",
+  "style": "heldout",
+  "reviewed": true,
+  "gold": {
+   "top_aspects": [
+    "کیفیت و جنس",
+    "سایز و اندازه",
+    "قیمت"
+   ]
+  }
+ },
+ {
+  "id": "H-google-3",
+  "writer": "google/gemini-2.5-flash",
+  "question": "وضعیت رضایت مشتری‌ها از محصولات شامپو و مراقبت مو در سه سال گذشته چطور تغییر کرده؟ روند صعودی بوده یا نزولی؟",
+  "intent": "trend",
+  "category": "شامپو و مراقبت مو",
+  "style": "heldout",
+  "reviewed": false,
+  "gold": {
+   "direction": "up"
+  }
+ },
+ {
+  "id": "H-google-4",
+  "writer": "google/gemini-2.5-flash",
+  "question": "می‌خواستم بدونم بیشترین سهم بازار از فروش نوشت افزار تو دیجی‌کالا برای کدوم برنده؟",
+  "intent": "unsupported",
+  "category": null,
+  "style": "heldout",
+  "reviewed": true,
+  "gold": {}
+ },
+ {
+  "id": "H-google-5",
+  "writer": "google/gemini-2.5-flash",
+  "question": "بین برندهای معروف اسباب بازی، مثلاً لگو با پلی‌موبیل، کدوم از نظر رضایت کلی مشتری عملکرد بهتری داشته؟",
+  "intent": "brands",
+  "category": "اسباب بازی",
+  "style": "heldout",
+  "reviewed": false,
+  "gold": {
+   "best_brand": "هوپا",
+   "worst_brand": "دنیای سرگرمی های کمیاب",
+   "significant": true
+  }
+ },
+ {
+  "id": "H-google-6",
+  "writer": "google/gemini-2.5-flash",
+  "question": "اون آیتمای مراقبت پوستی که خیلی تعریفشون رو می‌کنن و ملت ازشون راضین، چی‌ها هستن؟",
+  "intent": "praises",
+  "category": "مراقبت پوست",
+  "style": "heldout",
+  "reviewed": false,
+  "gold": {
+   "top_aspects": [
+    "اثرگذاری (پوست، مو و ...)",
+    "کیفیت و جنس",
+    "قیمت"
+   ]
+  }
+ },
+ {
+  "id": "H-google-7",
+  "writer": "google/gemini-2.5-flash",
+  "question": "یه سوال! تعداد محصولاتی که تو دسته \"لباس زنانه\" موجود نیستن و مشتری‌ها هی درخواست دادن چنده؟",
+  "intent": "unsupported",
+  "category": null,
+  "style": "heldout",
+  "reviewed": true,
+  "gold": {}
+ },
+ {
+  "id": "H-google-8",
+  "writer": "google/gemini-2.5-flash",
+  "question": "چرا این همه نظر منفی برای بعضی از شامپوها ثبت شده؟ مشکل اصلیشون چیه به نظرت؟",
+  "intent": "complaints",
+  "category": "شامپو و مراقبت مو",
+  "style": "heldout",
+  "reviewed": false,
+  "gold": {
+   "top_aspects": [
+    "قیمت",
+    "اثرگذاری (پوست، مو و ...)",
+    "حجم و مقدار"
+   ]
+  }
+ },
+ {
+  "id": "H-google-9",
+  "writer": "google/gemini-2.5-flash",
+  "question": "کدوم نوشت‌افزارها با وجود اینکه کلی نظر دارن، اما انگار زیاد توصیه نمی‌شن؟ یعنی مردم نظر میدن ولی پیشنهاد نمی‌دن.",
+  "intent": "low_recommendation",
+  "category": "نوشت افزار",
+  "style": "heldout",
+  "reviewed": true,
+  "gold": {
+   "top_products": [
+    164612,
+    204636,
+    667140
+   ]
+  }
+ },
+ {
+  "id": "H-deepseek-0",
+  "writer": "deepseek/deepseek-chat-v3.1",
+  "question": "چرا اینقدر از کیفیت رنگ مدادشمعی‌های آریا شکایت می‌کنن؟ می‌شکنن یا رنگشون خوب نیست؟",
+  "intent": "complaints",
+  "category": "نوشت افزار",
+  "style": "heldout",
+  "reviewed": false,
+  "gold": {
+   "top_aspects": [
+    "کیفیت و جنس",
+    "رنگ",
+    "قیمت"
+   ]
+  }
+ },
+ {
+  "id": "H-deepseek-1",
+  "writer": "deepseek/deepseek-chat-v3.1",
+  "question": "لطفاً برندهای شامپو ضد شوره مثل هد اند شولدرز، پانتن و کلیر رو از نظر رضایت کاربران مقایسه کن",
+  "intent": "brands",
+  "category": "شامپو و مراقبت مو",
+  "style": "heldout",
+  "reviewed": false,
+  "gold": {
+   "best_brand": "شون",
+   "worst_brand": "استم سل",
+   "significant": true
+  }
+ },
+ {
+  "id": "H-deepseek-2",
+  "writer": "deepseek/deepseek-chat-v3.1",
+  "question": "ایشون روند فروش برند پمپرز توی یک سال اخیر چطور بوده؟",
+  "intent": "unsupported",
+  "category": null,
+  "style": "heldout",
+  "reviewed": true,
+  "gold": {}
+ },
+ {
+  "id": "H-deepseek-3",
+  "writer": "deepseek/deepseek-chat-v3.1",
+  "question": "مرطوب کننده‌های صورت کدوم برند رو بیشتر پیشنهاد می‌دن کاربرامون؟",
+  "intent": "praises",
+  "category": "مراقبت پوست",
+  "style": "heldout",
+  "reviewed": false,
+  "gold": {
+   "top_aspects": [
+    "اثرگذاری (پوست، مو و ...)",
+    "کیفیت و جنس",
+    "قیمت"
+   ]
+  }
+ },
+ {
+  "id": "H-deepseek-4",
+  "writer": "deepseek/deepseek-chat-v3.1",
+  "question": "میشه بگی کدوم عروسک های باتیس فوری تو انبار موجوده برای فروش فوری؟",
+  "intent": "unsupported",
+  "category": null,
+  "style": "heldout",
+  "reviewed": true,
+  "gold": {}
+ },
+ {
+  "id": "H-deepseek-5",
+  "writer": "deepseek/deepseek-chat-v3.1",
+  "question": "تغییرات امتیاز پیشنهاد خرید کوله پشتی‌های اسپورتو از ۱۴۰۰ تا الان چطور بوده؟",
+  "intent": "trend",
+  "category": "نوشت افزار",
+  "style": "heldout",
+  "reviewed": false,
+  "gold": {
+   "direction": "up"
+  }
+ },
+ {
+  "id": "H-deepseek-6",
+  "writer": "deepseek/deepseek-chat-v3.1",
+  "question": "پرفروش‌ترین پلی‌استیشن ای۵ تو بازار چنده؟",
+  "intent": "unsupported",
+  "category": null,
+  "style": "heldout",
+  "reviewed": true,
+  "gold": {}
+ },
+ {
+  "id": "H-deepseek-7",
+  "writer": "deepseek/deepseek-chat-v3.1",
+  "question": "لوگو تریکوهای زنانه نظر زیاد دارن ولی چرا کمتر کسی برای خرید پیشنهادشون میده؟",
+  "intent": "low_recommendation",
+  "category": "لباس زنانه",
+  "style": "heldout",
+  "reviewed": false,
+  "gold": {
+   "top_products": [
+    963758,
+    567113,
+    2666650
+   ]
+  }
+ },
+ {
+  "id": "H-deepseek-8",
+  "writer": "deepseek/deepseek-chat-v3.1",
+  "question": "مدلای لباس خواب نخی خیلی تو نظرات تحسین میشن مخصوصا از لحاظ جنس پارچه",
+  "intent": "praises",
+  "category": "لباس زنانه",
+  "style": "heldout",
+  "reviewed": false,
+  "gold": {
+   "top_aspects": [
+    "کیفیت و جنس",
+    "ظاهر و طراحی",
+    "قیمت"
+   ]
+  }
+ },
+ {
+  "id": "H-deepseek-9",
+  "writer": "deepseek/deepseek-chat-v3.1",
+  "question": "مقایسه کن اسباب بازی های فکری چرتکه و بچه های هوشمند رو از نظر بازخورد کاربران",
+  "intent": "brands",
+  "category": "اسباب بازی",
+  "style": "heldout",
+  "reviewed": false,
+  "gold": {
+   "best_brand": "هوپا",
+   "worst_brand": "دنیای سرگرمی های کمیاب",
+   "significant": true
+  }
+ },
+ {
+  "id": "H-meta-llama-0",
+  "writer": "meta-llama/llama-3.3-70b-instruct",
+  "question": "چرا از اسباب بازی‌های لوکس ما کمتر خرید می‌شود؟",
+  "intent": "unsupported",
+  "category": null,
+  "style": "heldout",
+  "reviewed": true,
+  "gold": {}
+ },
+ {
+  "id": "H-meta-llama-1",
+  "writer": "meta-llama/llama-3.3-70b-instruct",
+  "question": "لطفاً مقایسه‌ی برندهای مختلف لوازم مراقبت پوست را برای من انجام دهید",
+  "intent": "brands",
+  "category": "مراقبت پوست",
+  "style": "heldout",
+  "reviewed": true,
+  "gold": {
+   "best_brand": "سوپکس",
+   "worst_brand": "سودا",
+   "significant": true
+  }
+ },
+ {
+  "id": "H-meta-llama-2",
+  "writer": "meta-llama/llama-3.3-70b-instruct",
+  "question": "مورد علاقه ترین لباس زنانه چی هست؟",
+  "intent": "praises",
+  "category": "لباس زنانه",
+  "style": "heldout",
+  "reviewed": false,
+  "gold": {
+   "top_aspects": [
+    "کیفیت و جنس",
+    "ظاهر و طراحی",
+    "قیمت"
+   ]
+  }
+ },
+ {
+  "id": "H-meta-llama-3",
+  "writer": "meta-llama/llama-3.3-70b-instruct",
+  "question": "چرا فروش نوشت‌افزارهای ما در مقایسه با سایر فروشگاه‌ها پایین‌تره؟",
+  "intent": "unsupported",
+  "category": null,
+  "style": "heldout",
+  "reviewed": true,
+  "gold": {}
+ },
+ {
+  "id": "H-meta-llama-4",
+  "writer": "meta-llama/llama-3.3-70b-instruct",
+  "question": "شامپوهای ما از نظر کیفیت چطورین؟ آیا Users از اونها راضی هستن؟",
+  "intent": "praises",
+  "category": "شامپو و مراقبت مو",
+  "style": "heldout",
+  "reviewed": true,
+  "gold": {
+   "top_aspects": [
+    "کیفیت و جنس",
+    "بو",
+    "قیمت"
+   ]
+  }
+ },
+ {
+  "id": "H-meta-llama-5",
+  "writer": "meta-llama/llama-3.3-70b-instruct",
+  "question": "چرا کاربران از خرید لوازم مراقبت پوست ما شکایت دارن؟",
+  "intent": "complaints",
+  "category": "مراقبت پوست",
+  "style": "heldout",
+  "reviewed": true,
+  "gold": {
+   "top_aspects": [
+    "اثرگذاری (پوست، مو و ...)",
+    "قیمت",
+    "حجم و مقدار"
+   ]
+  }
+ },
+ {
+  "id": "H-meta-llama-6",
+  "writer": "meta-llama/llama-3.3-70b-instruct",
+  "question": "چطور می‌تونم بفهمم که کدام برند اسباب‌بازی محبوب‌تره؟",
+  "intent": "brands",
+  "category": "اسباب بازی",
+  "style": "heldout",
+  "reviewed": false,
+  "gold": {
+   "best_brand": "هوپا",
+   "worst_brand": "دنیای سرگرمی های کمیاب",
+   "significant": true
+  }
+ },
+ {
+  "id": "H-meta-llama-7",
+  "writer": "meta-llama/llama-3.3-70b-instruct",
+  "question": "آیا رضایت کاربران از لباس‌های زنانه در طول سال‌ها تغییر کرده؟",
+  "intent": "trend",
+  "category": "لباس زنانه",
+  "style": "heldout",
+  "reviewed": true,
+  "gold": {
+   "direction": "up"
+  }
+ },
+ {
+  "id": "H-meta-llama-8",
+  "writer": "meta-llama/llama-3.3-70b-instruct",
+  "question": "چرا موجودی انبار ما از نوشت‌افزارها زیاد هست؟",
+  "intent": "unsupported",
+  "category": null,
+  "style": "heldout",
+  "reviewed": true,
+  "gold": {}
+ },
+ {
+  "id": "H-meta-llama-9",
+  "writer": "meta-llama/llama-3.3-70b-instruct",
+  "question": "چطور می‌تونم بفهمم که کدام شامپو ها menos recommend میشن؟",
+  "intent": "low_recommendation",
+  "category": "شامپو و مراقبت مو",
+  "style": "heldout",
+  "reviewed": false,
+  "gold": {
+   "top_products": [
+    2851533,
+    3854152,
+    803867
+   ]
+  }
+ }
+]

@@ -1,0 +1,48 @@
+{
+ "usefulness_human_vs_judge": {
+  "n": 20,
+  "spearman": 0.584,
+  "p_value": 0.0068,
+  "mean_abs_diff": 0.4,
+  "within_1_pct": 95,
+  "by_mode": {
+   "full": {
+    "rater_mean": 4.33,
+    "judge_mean": 4.58,
+    "n": 12
+   },
+   "baseline": {
+    "rater_mean": 3.12,
+    "judge_mean": 3.25,
+    "n": 8
+   }
+  },
+  "largest_disagreements": [
+   "H16"
+  ]
+ },
+ "faithfulness_checked_vs_judge": {
+  "n": 20,
+  "spearman": 0.818,
+  "p_value": 0.0,
+  "mean_abs_diff": 0.55,
+  "within_1_pct": 85,
+  "by_mode": {
+   "full": {
+    "rater_mean": 4.92,
+    "judge_mean": 5.0,
+    "n": 12
+   },
+   "baseline": {
+    "rater_mean": 3.12,
+    "judge_mean": 3.12,
+    "n": 8
+   }
+  },
+  "largest_disagreements": [
+   "H04",
+   "H06",
+   "H10"
+  ]
+ }
+}

@@ -1,0 +1,95 @@
+{
+ "cold_median_s": 7.255000000000001,
+ "warm_median_s": 0.0,
+ "cold_tokens": 11584,
+ "warm_tokens": 0,
+ "warm_cache_hits": "6/6",
+ "cold": [
+  {
+   "part": "manager",
+   "latency_s": 29.08,
+   "tokens": 1320,
+   "cached_calls": 0,
+   "calls": 1
+  },
+  {
+   "part": "manager",
+   "latency_s": 7.73,
+   "tokens": 1708,
+   "cached_calls": 0,
+   "calls": 1
+  },
+  {
+   "part": "manager",
+   "latency_s": 7.93,
+   "tokens": 1548,
+   "cached_calls": 0,
+   "calls": 1
+  },
+  {
+   "part": "manager",
+   "latency_s": 5.61,
+   "tokens": 1148,
+   "cached_calls": 0,
+   "calls": 1
+  },
+  {
+   "part": "compare",
+   "latency_s": 6.78,
+   "tokens": 2890,
+   "cached_calls": 0,
+   "calls": 1
+  },
+  {
+   "part": "compare",
+   "latency_s": 6.07,
+   "tokens": 2970,
+   "cached_calls": 0,
+   "calls": 1
+  }
+ ],
+ "warm": [
+  {
+   "part": "manager",
+   "latency_s": 0.0,
+   "tokens": 0,
+   "cached_calls": 1,
+   "calls": 1
+  },
+  {
+   "part": "manager",
+   "latency_s": 0.0,
+   "tokens": 0,
+   "cached_calls": 1,
+   "calls": 1
+  },
+  {
+   "part": "manager",
+   "latency_s": 0.0,
+   "tokens": 0,
+   "cached_calls": 1,
+   "calls": 1
+  },
+  {
+   "part": "manager",
+   "latency_s": 0.0,
+   "tokens": 0,
+   "cached_calls": 1,
+   "calls": 1
+  },
+  {
+   "part": "compare",
+   "latency_s": 0.85,
+   "tokens": 0,
+   "cached_calls": 1,
+   "calls": 1
+  },
+  {
+   "part": "compare",
+   "latency_s": 0.84,
+   "tokens": 0,
+   "cached_calls": 1,
+   "calls": 1
+  }
+ ]
+}

@@ -1,0 +1,666 @@
+[
+ {
+  "id": "M-complaints-0-formal",
+  "question": "پرتکرارترین شکایت کاربران در دسته‌ی اسباب بازی چیست؟",
+  "intent": "complaints",
+  "category": "اسباب بازی",
+  "style": "formal",
+  "gold": {
+   "top_aspects": [
+    "کیفیت و جنس",
+    "سایز و اندازه",
+    "قیمت"
+   ]
+  }
+ },
+ {
+  "id": "M-complaints-0-colloquial",
+  "question": "مشتری‌ها بیشتر از چی محصولات اسباب بازی ناراضی‌اند؟",
+  "intent": "complaints",
+  "category": "اسباب بازی",
+  "style": "colloquial",
+  "gold": {
+   "top_aspects": [
+    "کیفیت و جنس",
+    "سایز و اندازه",
+    "قیمت"
+   ]
+  }
+ },
+ {
+  "id": "M-complaints-1-formal",
+  "question": "پرتکرارترین شکایت کاربران در دسته‌ی مراقبت پوست چیست؟",
+  "intent": "complaints",
+  "category": "مراقبت پوست",
+  "style": "formal",
+  "gold": {
+   "top_aspects": [
+    "اثرگذاری (پوست، مو و ...)",
+    "قیمت",
+    "حجم و مقدار"
+   ]
+  }
+ },
+ {
+  "id": "M-complaints-1-colloquial",
+  "question": "مشتری‌ها بیشتر از چی محصولات مراقبت پوست ناراضی‌اند؟",
+  "intent": "complaints",
+  "category": "مراقبت پوست",
+  "style": "colloquial",
+  "gold": {
+   "top_aspects": [
+    "اثرگذاری (پوست، مو و ...)",
+    "قیمت",
+    "حجم و مقدار"
+   ]
+  }
+ },
+ {
+  "id": "M-complaints-2-formal",
+  "question": "پرتکرارترین شکایت کاربران در دسته‌ی لباس زنانه چیست؟",
+  "intent": "complaints",
+  "category": "لباس زنانه",
+  "style": "formal",
+  "gold": {
+   "top_aspects": [
+    "کیفیت و جنس",
+    "سایز و اندازه",
+    "قیمت"
+   ]
+  }
+ },
+ {
+  "id": "M-complaints-2-colloquial",
+  "question": "مشتری‌ها بیشتر از چی محصولات لباس زنانه ناراضی‌اند؟",
+  "intent": "complaints",
+  "category": "لباس زنانه",
+  "style": "colloquial",
+  "gold": {
+   "top_aspects": [
+    "کیفیت و جنس",
+    "سایز و اندازه",
+    "قیمت"
+   ]
+  }
+ },
+ {
+  "id": "M-complaints-3-formal",
+  "question": "پرتکرارترین شکایت کاربران در دسته‌ی نوشت افزار چیست؟",
+  "intent": "complaints",
+  "category": "نوشت افزار",
+  "style": "formal",
+  "gold": {
+   "top_aspects": [
+    "کیفیت و جنس",
+    "رنگ",
+    "قیمت"
+   ]
+  }
+ },
+ {
+  "id": "M-complaints-3-colloquial",
+  "question": "مشتری‌ها بیشتر از چی محصولات نوشت افزار ناراضی‌اند؟",
+  "intent": "complaints",
+  "category": "نوشت افزار",
+  "style": "colloquial",
+  "gold": {
+   "top_aspects": [
+    "کیفیت و جنس",
+    "رنگ",
+    "قیمت"
+   ]
+  }
+ },
+ {
+  "id": "M-complaints-4-formal",
+  "question": "پرتکرارترین شکایت کاربران در دسته‌ی شامپو و مراقبت مو چیست؟",
+  "intent": "complaints",
+  "category": "شامپو و مراقبت مو",
+  "style": "formal",
+  "gold": {
+   "top_aspects": [
+    "قیمت",
+    "اثرگذاری (پوست، مو و ...)",
+    "حجم و مقدار"
+   ]
+  }
+ },
+ {
+  "id": "M-complaints-4-colloquial",
+  "question": "مشتری‌ها بیشتر از چی محصولات شامپو و مراقبت مو ناراضی‌اند؟",
+  "intent": "complaints",
+  "category": "شامپو و مراقبت مو",
+  "style": "colloquial",
+  "gold": {
+   "top_aspects": [
+    "قیمت",
+    "اثرگذاری (پوست، مو و ...)",
+    "حجم و مقدار"
+   ]
+  }
+ },
+ {
+  "id": "M-praises-0-formal",
+  "question": "کاربران بیشتر از کدام ویژگی‌های محصولات اسباب بازی راضی هستند؟",
+  "intent": "praises",
+  "category": "اسباب بازی",
+  "style": "formal",
+  "gold": {
+   "top_aspects": [
+    "کیفیت و جنس",
+    "ظاهر و طراحی",
+    "قیمت"
+   ]
+  }
+ },
+ {
+  "id": "M-praises-0-colloquial",
+  "question": "نقاط قوت محصولات اسباب بازی از نگاه خریدارها چیه؟",
+  "intent": "praises",
+  "category": "اسباب بازی",
+  "style": "colloquial",
+  "gold": {
+   "top_aspects": [
+    "کیفیت و جنس",
+    "ظاهر و طراحی",
+    "قیمت"
+   ]
+  }
+ },
+ {
+  "id": "M-praises-1-formal",
+  "question": "کاربران بیشتر از کدام ویژگی‌های محصولات مراقبت پوست راضی هستند؟",
+  "intent": "praises",
+  "category": "مراقبت پوست",
+  "style": "formal",
+  "gold": {
+   "top_aspects": [
+    "اثرگذاری (پوست، مو و ...)",
+    "کیفیت و جنس",
+    "قیمت"
+   ]
+  }
+ },
+ {
+  "id": "M-praises-1-colloquial",
+  "question": "نقاط قوت محصولات مراقبت پوست از نگاه خریدارها چیه؟",
+  "intent": "praises",
+  "category": "مراقبت پوست",
+  "style": "colloquial",
+  "gold": {
+   "top_aspects": [
+    "اثرگذاری (پوست، مو و ...)",
+    "کیفیت و جنس",
+    "قیمت"
+   ]
+  }
+ },
+ {
+  "id": "M-praises-2-formal",
+  "question": "کاربران بیشتر از کدام ویژگی‌های محصولات لباس زنانه راضی هستند؟",
+  "intent": "praises",
+  "category": "لباس زنانه",
+  "style": "formal",
+  "gold": {
+   "top_aspects": [
+    "کیفیت و جنس",
+    "ظاهر و طراحی",
+    "قیمت"
+   ]
+  }
+ },
+ {
+  "id": "M-praises-2-colloquial",
+  "question": "نقاط قوت محصولات لباس زنانه از نگاه خریدارها چیه؟",
+  "intent": "praises",
+  "category": "لباس زنانه",
+  "style": "colloquial",
+  "gold": {
+   "top_aspects": [
+    "کیفیت و جنس",
+    "ظاهر و طراحی",
+    "قیمت"
+   ]
+  }
+ },
+ {
+  "id": "M-praises-3-formal",
+  "question": "کاربران بیشتر از کدام ویژگی‌های محصولات نوشت افزار راضی هستند؟",
+  "intent": "praises",
+  "category": "نوشت افزار",
+  "style": "formal",
+  "gold": {
+   "top_aspects": [
+    "کیفیت و جنس",
+    "رنگ",
+    "ظاهر و طراحی"
+   ]
+  }
+ },
+ {
+  "id": "M-praises-3-colloquial",
+  "question": "نقاط قوت محصولات نوشت افزار از نگاه خریدارها چیه؟",
+  "intent": "praises",
+  "category": "نوشت افزار",
+  "style": "colloquial",
+  "gold": {
+   "top_aspects": [
+    "کیفیت و جنس",
+    "رنگ",
+    "ظاهر و طراحی"
+   ]
+  }
+ },
+ {
+  "id": "M-praises-4-formal",
+  "question": "کاربران بیشتر از کدام ویژگی‌های محصولات شامپو و مراقبت مو راضی هستند؟",
+  "intent": "praises",
+  "category": "شامپو و مراقبت مو",
+  "style": "formal",
+  "gold": {
+   "top_aspects": [
+    "کیفیت و جنس",
+    "بو",
+    "قیمت"
+   ]
+  }
+ },
+ {
+  "id": "M-praises-4-colloquial",
+  "question": "نقاط قوت محصولات شامپو و مراقبت مو از نگاه خریدارها چیه؟",
+  "intent": "praises",
+  "category": "شامپو و مراقبت مو",
+  "style": "colloquial",
+  "gold": {
+   "top_aspects": [
+    "کیفیت و جنس",
+    "بو",
+    "قیمت"
+   ]
+  }
+ },
+ {
+  "id": "M-low_recommendation-0-formal",
+  "question": "کدام محصولات اسباب بازی نظر زیادی دارند اما درصد پیشنهاد خرید آن‌ها پایین است؟",
+  "intent": "low_recommendation",
+  "category": "اسباب بازی",
+  "style": "formal",
+  "gold": {
+   "top_products": [
+    3347493,
+    698022,
+    2651529
+   ]
+  }
+ },
+ {
+  "id": "M-low_recommendation-0-colloquial",
+  "question": "تو اسباب بازی کدوم کالاها پرنظرن ولی کم پیشنهاد می‌شن؟",
+  "intent": "low_recommendation",
+  "category": "اسباب بازی",
+  "style": "colloquial",
+  "gold": {
+   "top_products": [
+    3347493,
+    698022,
+    2651529
+   ]
+  }
+ },
+ {
+  "id": "M-low_recommendation-1-formal",
+  "question": "کدام محصولات مراقبت پوست نظر زیادی دارند اما درصد پیشنهاد خرید آن‌ها پایین است؟",
+  "intent": "low_recommendation",
+  "category": "مراقبت پوست",
+  "style": "formal",
+  "gold": {
+   "top_products": [
+    262958,
+    226782,
+    4182580
+   ]
+  }
+ },
+ {
+  "id": "M-low_recommendation-1-colloquial",
+  "question": "تو مراقبت پوست کدوم کالاها پرنظرن ولی کم پیشنهاد می‌شن؟",
+  "intent": "low_recommendation",
+  "category": "مراقبت پوست",
+  "style": "colloquial",
+  "gold": {
+   "top_products": [
+    262958,
+    226782,
+    4182580
+   ]
+  }
+ },
+ {
+  "id": "M-low_recommendation-2-formal",
+  "question": "کدام محصولات لباس زنانه نظر زیادی دارند اما درصد پیشنهاد خرید آن‌ها پایین است؟",
+  "intent": "low_recommendation",
+  "category": "لباس زنانه",
+  "style": "formal",
+  "gold": {
+   "top_products": [
+    963758,
+    567113,
+    2666650
+   ]
+  }
+ },
+ {
+  "id": "M-low_recommendation-2-colloquial",
+  "question": "تو لباس زنانه کدوم کالاها پرنظرن ولی کم پیشنهاد می‌شن؟",
+  "intent": "low_recommendation",
+  "category": "لباس زنانه",
+  "style": "colloquial",
+  "gold": {
+   "top_products": [
+    963758,
+    567113,
+    2666650
+   ]
+  }
+ },
+ {
+  "id": "M-low_recommendation-3-formal",
+  "question": "کدام محصولات نوشت افزار نظر زیادی دارند اما درصد پیشنهاد خرید آن‌ها پایین است؟",
+  "intent": "low_recommendation",
+  "category": "نوشت افزار",
+  "style": "formal",
+  "gold": {
+   "top_products": [
+    164612,
+    204636,
+    667140
+   ]
+  }
+ },
+ {
+  "id": "M-low_recommendation-3-colloquial",
+  "question": "تو نوشت افزار کدوم کالاها پرنظرن ولی کم پیشنهاد می‌شن؟",
+  "intent": "low_recommendation",
+  "category": "نوشت افزار",
+  "style": "colloquial",
+  "gold": {
+   "top_products": [
+    164612,
+    204636,
+    667140
+   ]
+  }
+ },
+ {
+  "id": "M-low_recommendation-4-formal",
+  "question": "کدام محصولات شامپو و مراقبت مو نظر زیادی دارند اما درصد پیشنهاد خرید آن‌ها پایین است؟",
+  "intent": "low_recommendation",
+  "category": "شامپو و مراقبت مو",
+  "style": "formal",
+  "gold": {
+   "top_products": [
+    2851533,
+    3854152,
+    803867
+   ]
+  }
+ },
+ {
+  "id": "M-low_recommendation-4-colloquial",
+  "question": "تو شامپو و مراقبت مو کدوم کالاها پرنظرن ولی کم پیشنهاد می‌شن؟",
+  "intent": "low_recommendation",
+  "category": "شامپو و مراقبت مو",
+  "style": "colloquial",
+  "gold": {
+   "top_products": [
+    2851533,
+    3854152,
+    803867
+   ]
+  }
+ },
+ {
+  "id": "M-brands-0-formal",
+  "question": "بازخورد کاربران درباره‌ی برندهای اصلی دسته‌ی اسباب بازی چه تفاوتی دارد؟",
+  "intent": "brands",
+  "category": "اسباب بازی",
+  "style": "formal",
+  "gold": {
+   "best_brand": "هوپا",
+   "worst_brand": "دنیای سرگرمی های کمیاب",
+   "significant": true
+  }
+ },
+ {
+  "id": "M-brands-0-colloquial",
+  "question": "برندای اسباب بازی رو از نظر رضایت مشتری مقایسه کن",
+  "intent": "brands",
+  "category": "اسباب بازی",
+  "style": "colloquial",
+  "gold": {
+   "best_brand": "هوپا",
+   "worst_brand": "دنیای سرگرمی های کمیاب",
+   "significant": true
+  }
+ },
+ {
+  "id": "M-brands-1-formal",
+  "question": "بازخورد کاربران درباره‌ی برندهای اصلی دسته‌ی مراقبت پوست چه تفاوتی دارد؟",
+  "intent": "brands",
+  "category": "مراقبت پوست",
+  "style": "formal",
+  "gold": {
+   "best_brand": "سوپکس",
+   "worst_brand": "سودا",
+   "significant": true
+  }
+ },
+ {
+  "id": "M-brands-1-colloquial",
+  "question": "برندای مراقبت پوست رو از نظر رضایت مشتری مقایسه کن",
+  "intent": "brands",
+  "category": "مراقبت پوست",
+  "style": "colloquial",
+  "gold": {
+   "best_brand": "سوپکس",
+   "worst_brand": "سودا",
+   "significant": true
+  }
+ },
+ {
+  "id": "M-brands-2-formal",
+  "question": "بازخورد کاربران درباره‌ی برندهای اصلی دسته‌ی لباس زنانه چه تفاوتی دارد؟",
+  "intent": "brands",
+  "category": "لباس زنانه",
+  "style": "formal",
+  "gold": {
+   "best_brand": "ال سون",
+   "worst_brand": "به رسم",
+   "significant": true
+  }
+ },
+ {
+  "id": "M-brands-2-colloquial",
+  "question": "برندای لباس زنانه رو از نظر رضایت مشتری مقایسه کن",
+  "intent": "brands",
+  "category": "لباس زنانه",
+  "style": "colloquial",
+  "gold": {
+   "best_brand": "ال سون",
+   "worst_brand": "به رسم",
+   "significant": true
+  }
+ },
+ {
+  "id": "M-brands-3-formal",
+  "question": "بازخورد کاربران درباره‌ی برندهای اصلی دسته‌ی نوشت افزار چه تفاوتی دارد؟",
+  "intent": "brands",
+  "category": "نوشت افزار",
+  "style": "formal",
+  "gold": {
+   "best_brand": "آریا",
+   "worst_brand": "پارسیکار",
+   "significant": true
+  }
+ },
+ {
+  "id": "M-brands-3-colloquial",
+  "question": "برندای نوشت افزار رو از نظر رضایت مشتری مقایسه کن",
+  "intent": "brands",
+  "category": "نوشت افزار",
+  "style": "colloquial",
+  "gold": {
+   "best_brand": "آریا",
+   "worst_brand": "پارسیکار",
+   "significant": true
+  }
+ },
+ {
+  "id": "M-brands-4-formal",
+  "question": "بازخورد کاربران درباره‌ی برندهای اصلی دسته‌ی شامپو و مراقبت مو چه تفاوتی دارد؟",
+  "intent": "brands",
+  "category": "شامپو و مراقبت مو",
+  "style": "formal",
+  "gold": {
+   "best_brand": "شون",
+   "worst_brand": "استم سل",
+   "significant": true
+  }
+ },
+ {
+  "id": "M-brands-4-colloquial",
+  "question": "برندای شامپو و مراقبت مو رو از نظر رضایت مشتری مقایسه کن",
+  "intent": "brands",
+  "category": "شامپو و مراقبت مو",
+  "style": "colloquial",
+  "gold": {
+   "best_brand": "شون",
+   "worst_brand": "استم سل",
+   "significant": true
+  }
+ },
+ {
+  "id": "M-trend-0-formal",
+  "question": "روند رضایت کاربران از محصولات اسباب بازی در سال‌های اخیر چطور بوده است؟",
+  "intent": "trend",
+  "category": "اسباب بازی",
+  "style": "formal",
+  "gold": {
+   "direction": "up"
+  }
+ },
+ {
+  "id": "M-trend-0-colloquial",
+  "question": "رضایت مشتریای اسباب بازی طی این چند سال بهتر شده یا بدتر؟",
+  "intent": "trend",
+  "category": "اسباب بازی",
+  "style": "colloquial",
+  "gold": {
+   "direction": "up"
+  }
+ },
+ {
+  "id": "M-trend-1-formal",
+  "question": "روند رضایت کاربران از محصولات مراقبت پوست در سال‌های اخیر چطور بوده است؟",
+  "intent": "trend",
+  "category": "مراقبت پوست",
+  "style": "formal",
+  "gold": {
+   "direction": "up"
+  }
+ },
+ {
+  "id": "M-trend-1-colloquial",
+  "question": "رضایت مشتریای مراقبت پوست طی این چند سال بهتر شده یا بدتر؟",
+  "intent": "trend",
+  "category": "مراقبت پوست",
+  "style": "colloquial",
+  "gold": {
+   "direction": "up"
+  }
+ },
+ {
+  "id": "M-trend-2-formal",
+  "question": "روند رضایت کاربران از محصولات لباس زنانه در سال‌های اخیر چطور بوده است؟",
+  "intent": "trend",
+  "category": "لباس زنانه",
+  "style": "formal",
+  "gold": {
+   "direction": "up"
+  }
+ },
+ {
+  "id": "M-trend-2-colloquial",
+  "question": "رضایت مشتریای لباس زنانه طی این چند سال بهتر شده یا بدتر؟",
+  "intent": "trend",
+  "category": "لباس زنانه",
+  "style": "colloquial",
+  "gold": {
+   "direction": "up"
+  }
+ },
+ {
+  "id": "M-trend-3-formal",
+  "question": "روند رضایت کاربران از محصولات نوشت افزار در سال‌های اخیر چطور بوده است؟",
+  "intent": "trend",
+  "category": "نوشت افزار",
+  "style": "formal",
+  "gold": {
+   "direction": "up"
+  }
+ },
+ {
+  "id": "M-trend-3-colloquial",
+  "question": "رضایت مشتریای نوشت افزار طی این چند سال بهتر شده یا بدتر؟",
+  "intent": "trend",
+  "category": "نوشت افزار",
+  "style": "colloquial",
+  "gold": {
+   "direction": "up"
+  }
+ },
+ {
+  "id": "M-trend-4-formal",
+  "question": "روند رضایت کاربران از محصولات شامپو و مراقبت مو در سال‌های اخیر چطور بوده است؟",
+  "intent": "trend",
+  "category": "شامپو و مراقبت مو",
+  "style": "formal",
+  "gold": {
+   "direction": "up"
+  }
+ },
+ {
+  "id": "M-trend-4-colloquial",
+  "question": "رضایت مشتریای شامپو و مراقبت مو طی این چند سال بهتر شده یا بدتر؟",
+  "intent": "trend",
+  "category": "شامپو و مراقبت مو",
+  "style": "colloquial",
+  "gold": {
+   "direction": "up"
+  }
+ },
+ {
+  "id": "M-unsupported-0",
+  "question": "فروش ماه آینده‌ی دسته‌ی اسباب بازی چقدر می‌شود؟",
+  "intent": "unsupported",
+  "category": null,
+  "style": "trap",
+  "gold": {}
+ },
+ {
+  "id": "M-unsupported-1",
+  "question": "بهترین زمان برای تخفیف دادن روی محصولات مراقبت پوست کی است؟",
+  "intent": "unsupported",
+  "category": null,
+  "style": "trap",
+  "gold": {}
+ },
+ {
+  "id": "M-unsupported-2",
+  "question": "قیمت دلار هفته‌ی بعد چند می‌شود؟",
+  "intent": "unsupported",
+  "category": null,
+  "style": "trap",
+  "gold": {}
+ }
+]
