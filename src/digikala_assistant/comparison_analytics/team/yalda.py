@@ -10,7 +10,8 @@ we embed those reviews on the fly with the same model and the same prompts,
 then rank them by cosine similarity to the question. Embeddings are cached
 per product, so a second question about the same product is instant.
 
-Model folder: models/Yalda-Embedding (or env YALDA_MODEL_DIR).
+Model: models/Yalda-Embedding if present, else env YALDA_MODEL_DIR, else
+downloaded from Hugging Face (Yaldat/Yalda-Embedding) on first use.
 """
 
 from __future__ import annotations
@@ -23,6 +24,7 @@ from .. import stats
 from ..config import ROOT, env
 
 MAX_TOKENS = 512      # same as the team index for comments (products use 128)
+MODEL_ID = "Yaldat/Yalda-Embedding"
 DIM = 768             # same truncation as the team's vector database
 BATCH = 16            # 512 tokens per comment; keeps GPU memory low
 
@@ -32,7 +34,9 @@ def model():
     import torch
     from sentence_transformers import SentenceTransformer
 
-    path = env("YALDA_MODEL_DIR", str(ROOT / "models" / "Yalda-Embedding"))
+    # Local copy if present; otherwise Hugging Face downloads it once (~2.4 GB).
+    local = ROOT / "models" / "Yalda-Embedding"
+    path = env("YALDA_MODEL_DIR", str(local) if local.exists() else MODEL_ID)
     device = "cuda" if torch.cuda.is_available() else "cpu"
     kwargs = {"torch_dtype": torch.float16} if device == "cuda" else {}
     m = SentenceTransformer(path, device=device, model_kwargs=kwargs)
