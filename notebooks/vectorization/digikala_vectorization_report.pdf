@@ -1,0 +1,357 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R /Lang (en) >>
+endobj
+2 0 obj
+<< /Type /Pages /Count 4 /Kids [7 0 R 9 0 R 11 0 R 16 0 R] >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica /Encoding /WinAnsiEncoding >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding >>
+endobj
+5 0 obj
+<< /Length 5645 >>
+stream
+BT /B 8.6 Tf 0.07 0.44 0.4 rg 1 0 0 1 49 792.89 Tm (SEP QUERA  /  DIGIKALA DATA) Tj ET
+BT /B 8.3 Tf 0.258 0.365 0.47 rg 1 0 0 1 472.958 792.89 Tm (DATASET DESIGN) Tj ET
+0.79 0.84 0.88 RG 0.7 w 49 781.89 m 546.28 781.89 l S
+BT /B 26 Tf 0.071 0.176 0.294 rg 1 0 0 1 49 737.89 Tm (Vectorizing the Digikala Datasets) Tj ET
+0.79 0.84 0.88 RG 0.7 w 49 49.89 m 546.28 49.89 l S
+BT /R 8.4 Tf 0.258 0.365 0.47 rg 1 0 0 1 49 33.89 Tm (Digikala Vectorization Report) Tj ET
+BT /B 8.4 Tf 0.258 0.365 0.47 rg 1 0 0 1 506.28 33.89 Tm (1 / 4) Tj ET
+BT /R 12 Tf 0.258 0.365 0.47 rg 1 0 0 1 49 708.89 Tm (Two compact datasets for semantic search over products and customer experiences. Each) Tj ET
+BT /R 12 Tf 0.258 0.365 0.47 rg 1 0 0 1 49 691.89 Tm (search result can be traced back to its complete record in the original CSV.) Tj ET
+0.925 0.96 0.97 rg 49 614.89 159.093 57 re f
+0.07 0.44 0.4 rg 49 668.89 159.093 3 re f
+BT /B 19 Tf 0.07 0.44 0.4 rg 1 0 0 1 61 646.89 Tm (1,283,496) Tj ET
+BT /R 9.4 Tf 0.258 0.365 0.47 rg 1 0 0 1 61 628.89 Tm (Product rows) Tj ET
+0.925 0.96 0.97 rg 218.093 614.89 159.093 57 re f
+0.07 0.44 0.4 rg 218.093 668.89 159.093 3 re f
+BT /B 19 Tf 0.07 0.44 0.4 rg 1 0 0 1 230.093 646.89 Tm (6,156,289) Tj ET
+BT /R 9.4 Tf 0.258 0.365 0.47 rg 1 0 0 1 230.093 628.89 Tm (Comment rows) Tj ET
+0.925 0.96 0.97 rg 387.187 614.89 159.093 57 re f
+0.07 0.44 0.4 rg 387.187 668.89 159.093 3 re f
+BT /B 19 Tf 0.07 0.44 0.4 rg 1 0 0 1 399.187 646.89 Tm (5.81 GB) Tj ET
+BT /R 9.4 Tf 0.258 0.365 0.47 rg 1 0 0 1 399.187 628.89 Tm (Vector array footprint) Tj ET
+BT /B 15 Tf 0.071 0.176 0.294 rg 1 0 0 1 49 580.89 Tm (Why we ran Yalda locally) Tj ET
+BT /R 10.9 Tf 0.095 0.17 0.25 rg 1 0 0 1 49 557.89 Tm (Initial preparation estimated about 460 million tokens using the tokenizer for the original API route.) Tj ET
+BT /R 10.9 Tf 0.095 0.17 0.25 rg 1 0 0 1 49 542.49 Tm (Embedding that volume exceeded the project's API budget. Running the model locally in Colab let us) Tj ET
+BT /R 10.9 Tf 0.095 0.17 0.25 rg 1 0 0 1 49 527.09 Tm (keep details in the selected fields. Summaries could change product attributes, the reason for a) Tj ET
+BT /R 10.9 Tf 0.095 0.17 0.25 rg 1 0 0 1 49 511.69 Tm (complaint or the sentiment of a review.) Tj ET
+BT /R 10.9 Tf 0.095 0.17 0.25 rg 1 0 0 1 49 485.29 Tm (Yalda is a Persian semantic retrieval model with about 596 million parameters. It was specialized on) Tj ET
+BT /R 10.9 Tf 0.095 0.17 0.25 rg 1 0 0 1 49 469.89 Tm (more than one million Persian query-document pairs and reports strong performance on Persian) Tj ET
+BT /R 10.9 Tf 0.095 0.17 0.25 rg 1 0 0 1 49 454.49 Tm (FaMTEB retrieval tasks. Its available weights and FP16 inference made it practical to process millions) Tj ET
+BT /R 10.9 Tf 0.095 0.17 0.25 rg 1 0 0 1 49 439.09 Tm (of rows on a free Colab GPU.) Tj ET
+BT /B 9.5 Tf 0.07 0.44 0.4 rg 1 0 0 1 49 418.69 Tm (Yalda model card) Tj ET
+0.07 0.44 0.4 RG 0.5 w 49 416.69 m 127.669 416.69 l S
+BT /B 15 Tf 0.071 0.176 0.294 rg 1 0 0 1 49 390.69 Tm (Fields used for embeddings) Tj ET
+0.86 0.91 0.95 rg 49 346.69 497.28 26 re f
+BT /B 9.4 Tf 0.071 0.176 0.294 rg 1 0 0 1 58 358.69 Tm (Dataset) Tj ET
+BT /B 9.4 Tf 0.071 0.176 0.294 rg 1 0 0 1 150 358.69 Tm (Embedding input) Tj ET
+BT /B 9.4 Tf 0.071 0.176 0.294 rg 1 0 0 1 324 358.69 Tm (Why these fields) Tj ET
+0.79 0.84 0.88 RG 0.55 w 49 346.69 m 546.28 346.69 l S
+BT /R 9.6 Tf 0.095 0.17 0.25 rg 1 0 0 1 58 332.69 Tm (Products) Tj ET
+BT /R 9.6 Tf 0.095 0.17 0.25 rg 1 0 0 1 150 332.69 Tm (Persian title, brand and three) Tj ET
+BT /R 9.6 Tf 0.095 0.17 0.25 rg 1 0 0 1 150 319.69 Tm (category levels) Tj ET
+BT /R 9.6 Tf 0.095 0.17 0.25 rg 1 0 0 1 324 332.69 Tm (Titles identify the product and model. Brand and) Tj ET
+BT /R 9.6 Tf 0.095 0.17 0.25 rg 1 0 0 1 324 319.69 Tm (categories add context for finding similar) Tj ET
+BT /R 9.6 Tf 0.095 0.17 0.25 rg 1 0 0 1 324 306.69 Tm (products.) Tj ET
+0.79 0.84 0.88 RG 0.55 w 49 294.69 m 546.28 294.69 l S
+0.925 0.96 0.97 rg 49 242.69 497.28 52 re f
+BT /R 9.6 Tf 0.095 0.17 0.25 rg 1 0 0 1 58 280.69 Tm (Comments) Tj ET
+BT /R 9.6 Tf 0.095 0.17 0.25 rg 1 0 0 1 150 280.69 Tm (Title, body, advantages and) Tj ET
+BT /R 9.6 Tf 0.095 0.17 0.25 rg 1 0 0 1 150 267.69 Tm (disadvantages) Tj ET
+BT /R 9.6 Tf 0.095 0.17 0.25 rg 1 0 0 1 324 280.69 Tm (The comment describes the experience. The) Tj ET
+BT /R 9.6 Tf 0.095 0.17 0.25 rg 1 0 0 1 324 267.69 Tm (strengths and weaknesses show how the user) Tj ET
+BT /R 9.6 Tf 0.095 0.17 0.25 rg 1 0 0 1 324 254.69 Tm (evaluated each feature.) Tj ET
+0.79 0.84 0.88 RG 0.55 w 49 242.69 m 546.28 242.69 l S
+BT /B 15 Tf 0.071 0.176 0.294 rg 1 0 0 1 49 217.69 Tm (Why metadata stays in the CSV) Tj ET
+BT /R 10.9 Tf 0.095 0.17 0.25 rg 1 0 0 1 49 194.69 Tm (Price, ratings, rating counts, seller and authenticity support product display and filtering. The product ID) Tj ET
+BT /R 10.9 Tf 0.095 0.17 0.25 rg 1 0 0 1 49 179.29 Tm (joins a comment to the catalog. Review dates, ratings, buyer status and purchase recommendations) Tj ET
+BT /R 10.9 Tf 0.095 0.17 0.25 rg 1 0 0 1 49 163.89 Tm (support filtering and analysis. Titles, brands and categories can also be retrieved for exact filtering and) Tj ET
+BT /R 10.9 Tf 0.095 0.17 0.25 rg 1 0 0 1 49 148.49 Tm (display.) Tj ET
+BT /R 10.9 Tf 0.095 0.17 0.25 rg 1 0 0 1 49 122.09 Tm (Each vector carries a source_row index into the pinned CSV. This avoids copying text and metadata) Tj ET
+BT /R 10.9 Tf 0.095 0.17 0.25 rg 1 0 0 1 49 106.69 Tm (into the vector files while preserving access to every source column. Duplicate business IDs still map) Tj ET
+BT /R 10.9 Tf 0.095 0.17 0.25 rg 1 0 0 1 49 91.29 Tm (to their individual records.) Tj ET
+endstream
+endobj
+6 0 obj
+<< /Type /Annot /Subtype /Link /Rect [49 414.69 127.669 428.69] /Border [0 0 0] /A << /S /URI /URI (https://huggingface.co/Yaldat/Yalda-Embedding) >> >>
+endobj
+7 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /R 3 0 R /B 4 0 R >> >> /Contents 5 0 R /Annots [6 0 R] >>
+endobj
+8 0 obj
+<< /Length 5972 >>
+stream
+BT /B 8.6 Tf 0.07 0.44 0.4 rg 1 0 0 1 49 792.89 Tm (SEP QUERA  /  DIGIKALA DATA) Tj ET
+BT /B 8.3 Tf 0.258 0.365 0.47 rg 1 0 0 1 473.871 792.89 Tm (PREPROCESSING) Tj ET
+0.79 0.84 0.88 RG 0.7 w 49 781.89 m 546.28 781.89 l S
+BT /B 26 Tf 0.071 0.176 0.294 rg 1 0 0 1 49 737.89 Tm (Text Preparation and Token Limits) Tj ET
+0.79 0.84 0.88 RG 0.7 w 49 49.89 m 546.28 49.89 l S
+BT /R 8.4 Tf 0.258 0.365 0.47 rg 1 0 0 1 49 33.89 Tm (Digikala Vectorization Report) Tj ET
+BT /B 8.4 Tf 0.258 0.365 0.47 rg 1 0 0 1 506.28 33.89 Tm (2 / 4) Tj ET
+BT /R 10.9 Tf 0.095 0.17 0.25 rg 1 0 0 1 49 708.89 Tm (The pipeline applies Unicode NFC, maps Arabic forms of yeh and kaf to their Persian forms, and) Tj ET
+BT /R 10.9 Tf 0.095 0.17 0.25 rg 1 0 0 1 49 693.49 Tm (converts Persian and Arabic digits to ASCII digits. It removes control characters and cleans spacing) Tj ET
+BT /R 10.9 Tf 0.095 0.17 0.25 rg 1 0 0 1 49 678.09 Tm (and zero-width non-joiners. Values such as null and [] are treated as empty. Lists of advantages and) Tj ET
+BT /R 10.9 Tf 0.095 0.17 0.25 rg 1 0 0 1 49 662.69 Tm (disadvantages are converted to text with Persian semicolons.) Tj ET
+0.86 0.91 0.95 rg 49 615.29 497.28 26 re f
+BT /B 9.4 Tf 0.071 0.176 0.294 rg 1 0 0 1 58 627.29 Tm (Dataset) Tj ET
+BT /B 9.4 Tf 0.071 0.176 0.294 rg 1 0 0 1 163 627.29 Tm (Prepared text example \(translated\)) Tj ET
+0.79 0.84 0.88 RG 0.55 w 49 615.29 m 546.28 615.29 l S
+BT /R 9.6 Tf 0.095 0.17 0.25 rg 1 0 0 1 58 601.29 Tm (Products) Tj ET
+BT /R 9.6 Tf 0.095 0.17 0.25 rg 1 0 0 1 163 601.29 Tm (Samsung Galaxy A55 mobile phone | Samsung | Digital goods | Mobile | Smartphone) Tj ET
+0.79 0.84 0.88 RG 0.55 w 49 589.29 m 546.28 589.29 l S
+0.925 0.96 0.97 rg 49 563.29 497.28 26 re f
+BT /R 9.6 Tf 0.095 0.17 0.25 rg 1 0 0 1 58 575.29 Tm (Comments) Tj ET
+BT /R 9.6 Tf 0.095 0.17 0.25 rg 1 0 0 1 163 575.29 Tm (Title: Excellent | Review: It cleaned my skin well | Pros: Good price and pleasant scent) Tj ET
+0.79 0.84 0.88 RG 0.55 w 49 563.29 m 546.28 563.29 l S
+BT /B 15 Tf 0.071 0.176 0.294 rg 1 0 0 1 49 538.29 Tm (Field labels and stopwords) Tj ET
+BT /R 10.9 Tf 0.095 0.17 0.25 rg 1 0 0 1 49 515.29 Tm (Product fields appear in a fixed order. In a Yalda test with 10,000 products and 10 queries, removing) Tj ET
+BT /R 10.9 Tf 0.095 0.17 0.25 rg 1 0 0 1 49 499.89 Tm (field labels cut the average from 72.35 to 52.10 tokens. Under a category-based relevance rule, P@5) Tj ET
+BT /R 10.9 Tf 0.095 0.17 0.25 rg 1 0 0 1 49 484.49 Tm (rose from 0.84 to 0.88 and MRR@10 was 1.00 in both variants. Comments retain Persian labels to) Tj ET
+BT /R 10.9 Tf 0.095 0.17 0.25 rg 1 0 0 1 49 469.09 Tm (identify the title, body, strengths and weaknesses.) Tj ET
+BT /R 10.9 Tf 0.095 0.17 0.25 rg 1 0 0 1 49 442.69 Tm (Stopword removal is disabled. In the token audit, conservative removal saved about 0.5% of comment) Tj ET
+BT /R 10.9 Tf 0.095 0.17 0.25 rg 1 0 0 1 49 427.29 Tm (tokens and left 160 previously nonempty texts blank. Retaining phrases such as "not good" and "it was) Tj ET
+BT /R 10.9 Tf 0.095 0.17 0.25 rg 1 0 0 1 49 411.89 Tm (good at first" preserves negation, tone and timing.) Tj ET
+BT /B 15 Tf 0.071 0.176 0.294 rg 1 0 0 1 49 380.49 Tm (128 tokens for products and 512 for comments) Tj ET
+BT /R 10.9 Tf 0.095 0.17 0.25 rg 1 0 0 1 49 357.49 Tm (The limits follow the token-length distributions of the normalized texts. Longer inputs are truncated on) Tj ET
+BT /R 10.9 Tf 0.095 0.17 0.25 rg 1 0 0 1 49 342.09 Tm (the right. The product limit fully covered 99.997% of sampled valid texts, with 4 of 149,722 truncated.) Tj ET
+BT /R 10.9 Tf 0.095 0.17 0.25 rg 1 0 0 1 49 326.69 Tm (The comment limit fully covered 99.939%, with 364 of 600,885 truncated.) Tj ET
+0.071 0.176 0.294 rg 131 288.29 6 6 re f
+BT /R 8.9 Tf 0.258 0.365 0.47 rg 1 0 0 1 144 288.29 Tm (P50) Tj ET
+0.23 0.43 0.62 rg 197 288.29 6 6 re f
+BT /R 8.9 Tf 0.258 0.365 0.47 rg 1 0 0 1 210 288.29 Tm (P95) Tj ET
+0.07 0.44 0.4 rg 266 295.29 m 262 288.29 l 270 288.29 l h f
+BT /R 8.9 Tf 0.258 0.365 0.47 rg 1 0 0 1 276 288.29 Tm (P99) Tj ET
+0.68 0.31 0.15 RG 1.8 w 332 298.29 m 332 284.29 l S
+BT /R 8.9 Tf 0.258 0.365 0.47 rg 1 0 0 1 342 288.29 Tm (Selected limit) Tj ET
+0.79 0.84 0.88 RG 0.5 w 134 269.29 m 134 201.29 l S
+BT /R 8.5 Tf 0.258 0.365 0.47 rg 1 0 0 1 131.637 189.29 Tm (0) Tj ET
+0.79 0.84 0.88 RG 0.5 w 206.83 269.29 m 206.83 201.29 l S
+BT /R 8.5 Tf 0.258 0.365 0.47 rg 1 0 0 1 199.741 189.29 Tm (100) Tj ET
+0.79 0.84 0.88 RG 0.5 w 279.659 269.29 m 279.659 201.29 l S
+BT /R 8.5 Tf 0.258 0.365 0.47 rg 1 0 0 1 272.57 189.29 Tm (200) Tj ET
+0.79 0.84 0.88 RG 0.5 w 352.489 269.29 m 352.489 201.29 l S
+BT /R 8.5 Tf 0.258 0.365 0.47 rg 1 0 0 1 345.4 189.29 Tm (300) Tj ET
+0.79 0.84 0.88 RG 0.5 w 425.319 269.29 m 425.319 201.29 l S
+BT /R 8.5 Tf 0.258 0.365 0.47 rg 1 0 0 1 418.23 189.29 Tm (400) Tj ET
+0.79 0.84 0.88 RG 0.5 w 498.148 269.29 m 498.148 201.29 l S
+BT /R 8.5 Tf 0.258 0.365 0.47 rg 1 0 0 1 491.059 189.29 Tm (500) Tj ET
+BT /B 9.2 Tf 0.071 0.176 0.294 rg 1 0 0 1 49 246.29 Tm (Products) Tj ET
+0.86 0.91 0.95 RG 1.2 w 134 249.29 m 227.222 249.29 l S
+0.071 0.176 0.294 rg 168.143 246.29 6 6 re f
+0.23 0.43 0.62 rg 182.709 246.29 6 6 re f
+0.07 0.44 0.4 rg 195.177 253.29 m 191.177 246.29 l 199.177 246.29 l h f
+0.68 0.31 0.15 RG 1.8 w 227.222 256.29 m 227.222 242.29 l S
+BT /B 9.2 Tf 0.071 0.176 0.294 rg 1 0 0 1 49 214.29 Tm (Comments) Tj ET
+0.86 0.91 0.95 RG 1.2 w 134 217.29 m 506.888 217.29 l S
+0.071 0.176 0.294 rg 152.121 214.29 6 6 re f
+0.23 0.43 0.62 rg 215.482 214.29 6 6 re f
+0.07 0.44 0.4 rg 286.214 221.29 m 282.214 214.29 l 290.214 214.29 l h f
+0.68 0.31 0.15 RG 1.8 w 506.888 224.29 m 506.888 210.29 l S
+BT /R 9 Tf 0.258 0.365 0.47 rg 1 0 0 1 266.11 172.29 Tm (Tokens per nonempty document) Tj ET
+BT /R 8.8 Tf 0.258 0.365 0.47 rg 1 0 0 1 49 153.29 Tm (Figure 1. Token lengths for unlabeled products and labeled comments. The 99th percentiles are 84 and 209 tokens,) Tj ET
+BT /R 8.8 Tf 0.258 0.365 0.47 rg 1 0 0 1 49 141.09 Tm (respectively.) Tj ET
+endstream
+endobj
+9 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /R 3 0 R /B 4 0 R >> >> /Contents 8 0 R  >>
+endobj
+10 0 obj
+<< /Length 6328 >>
+stream
+BT /B 8.6 Tf 0.07 0.44 0.4 rg 1 0 0 1 49 792.89 Tm (SEP QUERA  /  DIGIKALA DATA) Tj ET
+BT /B 8.3 Tf 0.258 0.365 0.47 rg 1 0 0 1 473.887 792.89 Tm (VECTOR FORMAT) Tj ET
+0.79 0.84 0.88 RG 0.7 w 49 781.89 m 546.28 781.89 l S
+BT /B 26 Tf 0.071 0.176 0.294 rg 1 0 0 1 49 737.89 Tm (Quantization and Storage) Tj ET
+0.79 0.84 0.88 RG 0.7 w 49 49.89 m 546.28 49.89 l S
+BT /R 8.4 Tf 0.258 0.365 0.47 rg 1 0 0 1 49 33.89 Tm (Digikala Vectorization Report) Tj ET
+BT /B 8.4 Tf 0.258 0.365 0.47 rg 1 0 0 1 506.28 33.89 Tm (3 / 4) Tj ET
+BT /R 10.9 Tf 0.095 0.17 0.25 rg 1 0 0 1 49 708.89 Tm (Yalda ran in FP16 and produced 1,024-dimensional vectors. We retained the first 768 coordinates and) Tj ET
+BT /R 10.9 Tf 0.095 0.17 0.25 rg 1 0 0 1 49 693.49 Tm (L2-normalized them in FP32. This reduced the number of coordinates by 25%. The final format stores) Tj ET
+BT /R 10.9 Tf 0.095 0.17 0.25 rg 1 0 0 1 49 678.09 Tm (each coordinate as INT8 and keeps one FP32 scale per row.) Tj ET
+BT /R 10.9 Tf 0.095 0.17 0.25 rg 1 0 0 1 49 651.69 Tm (Symmetric quantization uses the largest absolute value in each vector to scale its coordinates into the) Tj ET
+BT /R 10.9 Tf 0.095 0.17 0.25 rg 1 0 0 1 49 636.29 Tm (integer range [-127, 127]. To reconstruct a vector, multiply the codes by the row scale and) Tj ET
+BT /R 10.9 Tf 0.095 0.17 0.25 rg 1 0 0 1 49 620.89 Tm (L2-normalize before comparing cosine similarity.) Tj ET
+BT /B 15 Tf 0.071 0.176 0.294 rg 1 0 0 1 49 589.49 Tm (INT8 compared with Float16 in the pilot) Tj ET
+BT /R 10.9 Tf 0.095 0.17 0.25 rg 1 0 0 1 49 566.49 Tm (The comparison used 768-dimensional vectors from the initial API pilot. All five manually written) Tj ET
+BT /R 10.9 Tf 0.095 0.17 0.25 rg 1 0 0 1 49 551.09 Tm (queries returned the same five records in the same order in Float16 and INT8. The control queries had) Tj ET
+BT /R 10.9 Tf 0.095 0.17 0.25 rg 1 0 0 1 49 535.69 Tm (99.67% top-five overlap for both collections. The change in storage precision had little effect on) Tj ET
+BT /R 10.9 Tf 0.095 0.17 0.25 rg 1 0 0 1 49 520.29 Tm (retrieval in these examples.) Tj ET
+0.86 0.91 0.95 rg 49 472.89 497.28 26 re f
+BT /B 9.4 Tf 0.071 0.176 0.294 rg 1 0 0 1 58 484.89 Tm (Pilot collection) Tj ET
+BT /B 9.4 Tf 0.071 0.176 0.294 rg 1 0 0 1 164 484.89 Tm (Manual queries) Tj ET
+BT /B 9.4 Tf 0.071 0.176 0.294 rg 1 0 0 1 256 484.89 Tm (Control queries) Tj ET
+BT /B 9.4 Tf 0.071 0.176 0.294 rg 1 0 0 1 349 484.89 Tm (Top-five overlap) Tj ET
+BT /B 9.4 Tf 0.071 0.176 0.294 rg 1 0 0 1 447 484.89 Tm (Top-one agreement) Tj ET
+0.79 0.84 0.88 RG 0.55 w 49 472.89 m 546.28 472.89 l S
+BT /R 9.6 Tf 0.095 0.17 0.25 rg 1 0 0 1 58 458.89 Tm (Products) Tj ET
+BT /R 9.6 Tf 0.095 0.17 0.25 rg 1 0 0 1 164 458.89 Tm (2) Tj ET
+BT /R 9.6 Tf 0.095 0.17 0.25 rg 1 0 0 1 256 458.89 Tm (60) Tj ET
+BT /R 9.6 Tf 0.095 0.17 0.25 rg 1 0 0 1 349 458.89 Tm (99.67%) Tj ET
+BT /R 9.6 Tf 0.095 0.17 0.25 rg 1 0 0 1 447 458.89 Tm (98.33%) Tj ET
+0.79 0.84 0.88 RG 0.55 w 49 446.89 m 546.28 446.89 l S
+0.925 0.96 0.97 rg 49 420.89 497.28 26 re f
+BT /R 9.6 Tf 0.095 0.17 0.25 rg 1 0 0 1 58 432.89 Tm (Comments) Tj ET
+BT /R 9.6 Tf 0.095 0.17 0.25 rg 1 0 0 1 164 432.89 Tm (3) Tj ET
+BT /R 9.6 Tf 0.095 0.17 0.25 rg 1 0 0 1 256 432.89 Tm (60) Tj ET
+BT /R 9.6 Tf 0.095 0.17 0.25 rg 1 0 0 1 349 432.89 Tm (99.67%) Tj ET
+BT /R 9.6 Tf 0.095 0.17 0.25 rg 1 0 0 1 447 432.89 Tm (100%) Tj ET
+0.79 0.84 0.88 RG 0.55 w 49 420.89 m 546.28 420.89 l S
+BT /B 15 Tf 0.071 0.176 0.294 rg 1 0 0 1 49 395.89 Tm (About 5.68 GB less storage) Tj ET
+BT /R 10.9 Tf 0.095 0.17 0.25 rg 1 0 0 1 49 372.89 Tm (Across 7,439,785 rows, the 768-dimensional Float16 baseline uses 1,545 bytes per row with the index) Tj ET
+BT /R 10.9 Tf 0.095 0.17 0.25 rg 1 0 0 1 49 357.49 Tm (and validity flag. INT8 uses 781 bytes per row with the index, scale and validity flag. The total footprint) Tj ET
+BT /R 10.9 Tf 0.095 0.17 0.25 rg 1 0 0 1 49 342.09 Tm (drops from 11.49 GB to 5.81 GB, a reduction of 49.45%.) Tj ET
+0.86 0.91 0.95 rg 135 300.69 14 8 re f
+BT /R 9 Tf 0.258 0.365 0.47 rg 1 0 0 1 155 301.69 Tm (Float16) Tj ET
+0.07 0.44 0.4 rg 226 300.69 14 8 re f
+BT /R 9 Tf 0.258 0.365 0.47 rg 1 0 0 1 246 301.69 Tm (INT8 + scale) Tj ET
+0.79 0.84 0.88 RG 0.55 w 135 282.69 m 135 174.69 l S
+BT /R 8.5 Tf 0.258 0.365 0.47 rg 1 0 0 1 132.637 161.69 Tm (0) Tj ET
+0.79 0.84 0.88 RG 0.55 w 198.547 282.69 m 198.547 174.69 l S
+BT /R 8.5 Tf 0.258 0.365 0.47 rg 1 0 0 1 196.184 161.69 Tm (2) Tj ET
+0.79 0.84 0.88 RG 0.55 w 262.093 282.69 m 262.093 174.69 l S
+BT /R 8.5 Tf 0.258 0.365 0.47 rg 1 0 0 1 259.73 161.69 Tm (4) Tj ET
+0.79 0.84 0.88 RG 0.55 w 325.64 282.69 m 325.64 174.69 l S
+BT /R 8.5 Tf 0.258 0.365 0.47 rg 1 0 0 1 323.277 161.69 Tm (6) Tj ET
+0.79 0.84 0.88 RG 0.55 w 389.187 282.69 m 389.187 174.69 l S
+BT /R 8.5 Tf 0.258 0.365 0.47 rg 1 0 0 1 386.824 161.69 Tm (8) Tj ET
+0.79 0.84 0.88 RG 0.55 w 452.733 282.69 m 452.733 174.69 l S
+BT /R 8.5 Tf 0.258 0.365 0.47 rg 1 0 0 1 448.007 161.69 Tm (10) Tj ET
+0.79 0.84 0.88 RG 0.55 w 516.28 282.69 m 516.28 174.69 l S
+BT /R 8.5 Tf 0.258 0.365 0.47 rg 1 0 0 1 511.554 161.69 Tm (12) Tj ET
+BT /B 9.2 Tf 0.071 0.176 0.294 rg 1 0 0 1 49 262.69 Tm (Products) Tj ET
+0.86 0.91 0.95 rg 135 268.69 63.007 9 re f
+BT /R 8.3 Tf 0.071 0.176 0.294 rg 1 0 0 1 203.007 269.69 Tm (1.98) Tj ET
+0.07 0.44 0.4 rg 135 256.69 31.85 9 re f
+BT /R 8.3 Tf 0.071 0.176 0.294 rg 1 0 0 1 171.85 257.69 Tm (1.00) Tj ET
+BT /B 9.2 Tf 0.071 0.176 0.294 rg 1 0 0 1 49 227.69 Tm (Comments) Tj ET
+0.86 0.91 0.95 rg 135 233.69 302.211 9 re f
+BT /R 8.3 Tf 0.071 0.176 0.294 rg 1 0 0 1 442.211 234.69 Tm (9.51) Tj ET
+0.07 0.44 0.4 rg 135 221.69 152.768 9 re f
+BT /R 8.3 Tf 0.071 0.176 0.294 rg 1 0 0 1 292.768 222.69 Tm (4.81) Tj ET
+BT /B 9.2 Tf 0.071 0.176 0.294 rg 1 0 0 1 49 192.69 Tm (Total) Tj ET
+0.86 0.91 0.95 rg 135 198.69 365.218 9 re f
+BT /R 8.3 Tf 0.071 0.176 0.294 rg 1 0 0 1 505.218 199.69 Tm (11.49) Tj ET
+0.07 0.44 0.4 rg 135 186.69 184.618 9 re f
+BT /R 8.3 Tf 0.071 0.176 0.294 rg 1 0 0 1 324.618 187.69 Tm (5.81) Tj ET
+BT /R 9 Tf 0.258 0.365 0.47 rg 1 0 0 1 276.882 144.69 Tm (Array size \(GB, decimal\)) Tj ET
+BT /R 8.8 Tf 0.258 0.365 0.47 rg 1 0 0 1 49 123.69 Tm (Figure 2. Array sizes calculated from the dimensions and data types. CSV files and the small NPZ container overhead are) Tj ET
+BT /R 8.8 Tf 0.258 0.365 0.47 rg 1 0 0 1 49 111.49 Tm (outside the calculation.) Tj ET
+endstream
+endobj
+11 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /R 3 0 R /B 4 0 R >> >> /Contents 10 0 R  >>
+endobj
+12 0 obj
+<< /Length 5786 >>
+stream
+BT /B 8.6 Tf 0.07 0.44 0.4 rg 1 0 0 1 49 792.89 Tm (SEP QUERA  /  DIGIKALA DATA) Tj ET
+BT /B 8.3 Tf 0.258 0.365 0.47 rg 1 0 0 1 479.888 792.89 Tm (TEAM HANDOFF) Tj ET
+0.79 0.84 0.88 RG 0.7 w 49 781.89 m 546.28 781.89 l S
+BT /B 26 Tf 0.071 0.176 0.294 rg 1 0 0 1 49 737.89 Tm (Using the Released Datasets) Tj ET
+0.79 0.84 0.88 RG 0.7 w 49 49.89 m 546.28 49.89 l S
+BT /R 8.4 Tf 0.258 0.365 0.47 rg 1 0 0 1 49 33.89 Tm (Digikala Vectorization Report) Tj ET
+BT /B 8.4 Tf 0.258 0.365 0.47 rg 1 0 0 1 506.28 33.89 Tm (4 / 4) Tj ET
+BT /R 12 Tf 0.258 0.365 0.47 rg 1 0 0 1 49 708.89 Tm (Each collection is a single NPZ in source CSV order. The corresponding Colab notebook can) Tj ET
+BT /R 12 Tf 0.258 0.365 0.47 rg 1 0 0 1 49 691.89 Tm (reproduce the vector file or search the published copy.) Tj ET
+0.86 0.91 0.95 rg 49 642.89 497.28 26 re f
+BT /B 9.4 Tf 0.071 0.176 0.294 rg 1 0 0 1 58 654.89 Tm (Array) Tj ET
+BT /B 9.4 Tf 0.071 0.176 0.294 rg 1 0 0 1 158 654.89 Tm (Data type) Tj ET
+BT /B 9.4 Tf 0.071 0.176 0.294 rg 1 0 0 1 263 654.89 Tm (Purpose) Tj ET
+0.79 0.84 0.88 RG 0.55 w 49 642.89 m 546.28 642.89 l S
+BT /R 9.6 Tf 0.095 0.17 0.25 rg 1 0 0 1 58 628.89 Tm (vectors) Tj ET
+BT /R 9.6 Tf 0.095 0.17 0.25 rg 1 0 0 1 158 628.89 Tm (INT8 x 768) Tj ET
+BT /R 9.6 Tf 0.095 0.17 0.25 rg 1 0 0 1 263 628.89 Tm (Quantized vector for each record) Tj ET
+0.79 0.84 0.88 RG 0.55 w 49 616.89 m 546.28 616.89 l S
+0.925 0.96 0.97 rg 49 590.89 497.28 26 re f
+BT /R 9.6 Tf 0.095 0.17 0.25 rg 1 0 0 1 58 602.89 Tm (source_row) Tj ET
+BT /R 9.6 Tf 0.095 0.17 0.25 rg 1 0 0 1 158 602.89 Tm (Int64) Tj ET
+BT /R 9.6 Tf 0.095 0.17 0.25 rg 1 0 0 1 263 602.89 Tm (Zero-based data row in the original CSV) Tj ET
+0.79 0.84 0.88 RG 0.55 w 49 590.89 m 546.28 590.89 l S
+BT /R 9.6 Tf 0.095 0.17 0.25 rg 1 0 0 1 58 576.89 Tm (scales) Tj ET
+BT /R 9.6 Tf 0.095 0.17 0.25 rg 1 0 0 1 158 576.89 Tm (FP32) Tj ET
+BT /R 9.6 Tf 0.095 0.17 0.25 rg 1 0 0 1 263 576.89 Tm (Per-row scale for reconstructing the vector) Tj ET
+0.79 0.84 0.88 RG 0.55 w 49 564.89 m 546.28 564.89 l S
+0.925 0.96 0.97 rg 49 525.89 497.28 39 re f
+BT /R 9.6 Tf 0.095 0.17 0.25 rg 1 0 0 1 58 550.89 Tm (valid) Tj ET
+BT /R 9.6 Tf 0.095 0.17 0.25 rg 1 0 0 1 158 550.89 Tm (Boolean) Tj ET
+BT /R 9.6 Tf 0.095 0.17 0.25 rg 1 0 0 1 263 550.89 Tm (Identifies searchable rows. Empty rows remain in place to) Tj ET
+BT /R 9.6 Tf 0.095 0.17 0.25 rg 1 0 0 1 263 537.89 Tm (preserve the mapping.) Tj ET
+0.79 0.84 0.88 RG 0.55 w 49 525.89 m 546.28 525.89 l S
+BT /B 15 Tf 0.071 0.176 0.294 rg 1 0 0 1 49 500.89 Tm (Search and retrieve metadata) Tj ET
+BT /B 10.9 Tf 0.07 0.44 0.4 rg 1 0 0 1 49 477.89 Tm (1.) Tj ET
+BT /R 10.9 Tf 0.095 0.17 0.25 rg 1 0 0 1 67 477.89 Tm (Open the product or comment notebook in Google Colab. Keep MODE = "use" and enable) Tj ET
+BT /R 10.9 Tf 0.095 0.17 0.25 rg 1 0 0 1 67 462.49 Tm (RUN_SEARCH_EXAMPLE to load the release into the runtime. You can also point VECTOR_FILE) Tj ET
+BT /R 10.9 Tf 0.095 0.17 0.25 rg 1 0 0 1 67 447.09 Tm (to a copy on mounted Drive.) Tj ET
+BT /B 10.9 Tf 0.07 0.44 0.4 rg 1 0 0 1 49 423.69 Tm (2.) Tj ET
+BT /R 10.9 Tf 0.095 0.17 0.25 rg 1 0 0 1 67 423.69 Tm (The notebook normalizes each query and embeds it with Yalda's official query prompt and the) Tj ET
+BT /R 10.9 Tf 0.095 0.17 0.25 rg 1 0 0 1 67 408.29 Tm (collection's token limit. It L2-normalizes the first 768 coordinates and compares them with valid,) Tj ET
+BT /R 10.9 Tf 0.095 0.17 0.25 rg 1 0 0 1 67 392.89 Tm (reconstructed vectors in small blocks.) Tj ET
+BT /B 10.9 Tf 0.07 0.44 0.4 rg 1 0 0 1 49 369.49 Tm (3.) Tj ET
+BT /R 10.9 Tf 0.095 0.17 0.25 rg 1 0 0 1 67 369.49 Tm (The result table shows cosine scores, source row indices, prepared document text and metadata) Tj ET
+BT /R 10.9 Tf 0.095 0.17 0.25 rg 1 0 0 1 67 354.09 Tm (from the original CSV. Keep the pinned CSV revision and its row order when performing lookups.) Tj ET
+0.925 0.96 0.97 rg 49 287.19 497.28 58.5 re f
+0.07 0.44 0.4 rg 49 287.19 3 58.5 re f
+BT /R 10.5 Tf 0.095 0.17 0.25 rg 1 0 0 1 62 330.69 Tm (The downstream language-model API requires an Iranian IP address. If Colab cannot reach the) Tj ET
+BT /R 10.5 Tf 0.095 0.17 0.25 rg 1 0 0 1 62 316.19 Tm (gateway, send that request from the team's environment with an Iranian IP address. Running Yalda) Tj ET
+BT /R 10.5 Tf 0.095 0.17 0.25 rg 1 0 0 1 62 301.69 Tm (and searching the vector files requires no API key.) Tj ET
+BT /B 15 Tf 0.071 0.176 0.294 rg 1 0 0 1 49 269.19 Tm (Reproduce the vector files) Tj ET
+BT /R 10.9 Tf 0.095 0.17 0.25 rg 1 0 0 1 49 246.19 Tm (The CPU stage builds and saves the token cache to Drive. The GPU stage can reuse computations for) Tj ET
+BT /R 10.9 Tf 0.095 0.17 0.25 rg 1 0 0 1 49 230.79 Tm (exact token sequences while preserving a separate output row for every source record. Checkpoints) Tj ET
+BT /R 10.9 Tf 0.095 0.17 0.25 rg 1 0 0 1 49 215.39 Tm (support resuming after interruptions, including importing comment shards from the previous Drive) Tj ET
+BT /R 10.9 Tf 0.095 0.17 0.25 rg 1 0 0 1 49 199.99 Tm (folder.) Tj ET
+BT /B 15 Tf 0.071 0.176 0.294 rg 1 0 0 1 49 168.59 Tm (Dataset links) Tj ET
+BT /B 9.5 Tf 0.07 0.44 0.4 rg 1 0 0 1 49 145.59 Tm (Product vectors) Tj ET
+0.07 0.44 0.4 RG 0.5 w 49 143.59 m 121.323 143.59 l S
+BT /B 9.5 Tf 0.07 0.44 0.4 rg 1 0 0 1 143.323 145.59 Tm (Comment vectors) Tj ET
+0.07 0.44 0.4 RG 0.5 w 143.323 143.59 m 223.56 143.59 l S
+BT /B 9.5 Tf 0.07 0.44 0.4 rg 1 0 0 1 245.56 145.59 Tm (Pinned source CSVs) Tj ET
+0.07 0.44 0.4 RG 0.5 w 245.56 143.59 m 338.48 143.59 l S
+BT /R 8.8 Tf 0.258 0.365 0.47 rg 1 0 0 1 49 124.59 Tm (Project results draw on the initial token count, the Yalda token audit, the product-label comparison, the Float16 and INT8 pilot,) Tj ET
+BT /R 8.8 Tf 0.258 0.365 0.47 rg 1 0 0 1 49 112.39 Tm (and the final vector settings.) Tj ET
+endstream
+endobj
+13 0 obj
+<< /Type /Annot /Subtype /Link /Rect [49 141.59 121.323 155.59] /Border [0 0 0] /A << /S /URI /URI (https://drive.google.com/file/d/1H9YIchZXzkdQXKIQCXMvryQ3TNPrshV2/view?usp=sharing) >> >>
+endobj
+14 0 obj
+<< /Type /Annot /Subtype /Link /Rect [143.323 141.59 223.56 155.59] /Border [0 0 0] /A << /S /URI /URI (https://drive.google.com/file/d/1-3ciuF0SpfB1eDoL3SUd6aiWJPK-3LHo/view?usp=sharing) >> >>
+endobj
+15 0 obj
+<< /Type /Annot /Subtype /Link /Rect [245.56 141.59 338.48 155.59] /Border [0 0 0] /A << /S /URI /URI (https://huggingface.co/datasets/RadeAI/Digikala_comments_products/tree/89c3133b169c8d3793db8834f56f32fee33d9db0) >> >>
+endobj
+16 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /R 3 0 R /B 4 0 R >> >> /Contents 12 0 R /Annots [13 0 R 14 0 R 15 0 R] >>
+endobj
+17 0 obj
+<< /Title (Digikala Vectorization Report) /Subject (Dataset design, evaluation and team handoff) >>
+endobj
+xref
+0 18
+0000000000 65535 f 
+0000000009 00000 n 
+0000000069 00000 n 
+0000000146 00000 n 
+0000000243 00000 n 
+0000000345 00000 n 
+0000006041 00000 n 
+0000006209 00000 n 
+0000006365 00000 n 
+0000012388 00000 n 
+0000012529 00000 n 
+0000018909 00000 n 
+0000019052 00000 n 
+0000024890 00000 n 
+0000025096 00000 n 
+0000025306 00000 n 
+0000025544 00000 n 
+0000025717 00000 n 
+trailer
+<< /Size 18 /Root 1 0 R /Info 17 0 R >>
+startxref
+25833
+%%EOF
