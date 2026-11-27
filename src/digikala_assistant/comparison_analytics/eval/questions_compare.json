@@ -1,0 +1,232 @@
+[
+ {
+  "id": "C-clear-0",
+  "products": [
+   2184204,
+   7429067
+  ],
+  "question": "",
+  "type": "clear",
+  "gold": {
+   "winner": 2184204
+  }
+ },
+ {
+  "id": "C-close-0",
+  "products": [
+   2184204,
+   522690
+  ],
+  "question": "",
+  "type": "close",
+  "gold": {
+   "winner": null
+  }
+ },
+ {
+  "id": "C-aspect-0",
+  "products": [
+   674062,
+   1131948
+  ],
+  "question": "کیفیت ساخت و دوام کدوم بیشتره؟",
+  "type": "aspect",
+  "gold": {}
+ },
+ {
+  "id": "C-sparse-0",
+  "products": [
+   403866,
+   2142882
+  ],
+  "question": "",
+  "type": "sparse",
+  "gold": {
+   "weak_product": true
+  }
+ },
+ {
+  "id": "C-clear-1",
+  "products": [
+   3852285,
+   5425836
+  ],
+  "question": "",
+  "type": "clear",
+  "gold": {
+   "winner": 3852285
+  }
+ },
+ {
+  "id": "C-close-1",
+  "products": [
+   3852285,
+   4670204
+  ],
+  "question": "",
+  "type": "close",
+  "gold": {
+   "winner": null
+  }
+ },
+ {
+  "id": "C-aspect-1",
+  "products": [
+   4241462,
+   3022701
+  ],
+  "question": "کدوم برای پوست چرب بهتره و جذبش چطوره؟",
+  "type": "aspect",
+  "gold": {}
+ },
+ {
+  "id": "C-sparse-1",
+  "products": [
+   4083518,
+   5338470
+  ],
+  "question": "",
+  "type": "sparse",
+  "gold": {
+   "weak_product": true
+  }
+ },
+ {
+  "id": "C-clear-2",
+  "products": [
+   3217878,
+   2826231
+  ],
+  "question": "",
+  "type": "clear",
+  "gold": {
+   "winner": 3217878
+  }
+ },
+ {
+  "id": "C-close-2",
+  "products": [
+   3217878,
+   2662547
+  ],
+  "question": "",
+  "type": "close",
+  "gold": {
+   "winner": null
+  }
+ },
+ {
+  "id": "C-aspect-2",
+  "products": [
+   2571442,
+   2497638
+  ],
+  "question": "سایز و جنس کدوم بهتره؟",
+  "type": "aspect",
+  "gold": {}
+ },
+ {
+  "id": "C-sparse-2",
+  "products": [
+   1577129,
+   8327038
+  ],
+  "question": "",
+  "type": "sparse",
+  "gold": {
+   "weak_product": true
+  }
+ },
+ {
+  "id": "C-clear-3",
+  "products": [
+   3997028,
+   4326502
+  ],
+  "question": "",
+  "type": "clear",
+  "gold": {
+   "winner": 3997028
+  }
+ },
+ {
+  "id": "C-close-3",
+  "products": [
+   3997028,
+   4202584
+  ],
+  "question": "",
+  "type": "close",
+  "gold": {
+   "winner": null
+  }
+ },
+ {
+  "id": "C-aspect-3",
+  "products": [
+   2366711,
+   1881036
+  ],
+  "question": "کدوم قیمتش به کیفیتش می‌ارزه؟",
+  "type": "aspect",
+  "gold": {}
+ },
+ {
+  "id": "C-sparse-3",
+  "products": [
+   3443656,
+   10650091
+  ],
+  "question": "",
+  "type": "sparse",
+  "gold": {
+   "weak_product": true
+  }
+ },
+ {
+  "id": "C-clear-4",
+  "products": [
+   754223,
+   803867
+  ],
+  "question": "",
+  "type": "clear",
+  "gold": {
+   "winner": 754223
+  }
+ },
+ {
+  "id": "C-close-4",
+  "products": [
+   754223,
+   539005
+  ],
+  "question": "",
+  "type": "close",
+  "gold": {
+   "winner": null
+  }
+ },
+ {
+  "id": "C-aspect-4",
+  "products": [
+   146931,
+   3674058
+  ],
+  "question": "کدوم بوی بهتری داره و ماندگاری بوش بیشتره؟",
+  "type": "aspect",
+  "gold": {}
+ },
+ {
+  "id": "C-sparse-4",
+  "products": [
+   126128,
+   5394274
+  ],
+  "question": "",
+  "type": "sparse",
+  "gold": {
+   "weak_product": true
+  }
+ }
+]

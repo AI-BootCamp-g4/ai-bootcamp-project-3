@@ -1,0 +1,262 @@
+[
+ {
+  "code": "H01",
+  "source": "manager_full",
+  "id": "M-praises-4-formal",
+  "judge": {
+   "faithfulness": 5,
+   "usefulness": 4
+  },
+  "human_usefulness": 4,
+  "human_reason": "نقاط قوت را با درصد مشخص می‌کند و پیشنهاد تبلیغاتی می‌دهد؛ اما درصد اشاره به ویژگی لزوماً به معنی رضایت نیست.",
+  "checked_faithfulness": 5,
+  "checked_reason": "همهٔ درصدها و ترتیب جنبه‌ها با داده یکی است"
+ },
+ {
+  "code": "H02",
+  "source": "manager_full",
+  "id": "M-praises-3-formal",
+  "judge": {
+   "faithfulness": 5,
+   "usefulness": 5
+  },
+  "human_usefulness": 4,
+  "human_reason": "داده‌های کمی و اولویت‌های مشتریان را خوب ارائه می‌کند.",
+  "checked_faithfulness": 5,
+  "checked_reason": "عددها و ترتیب جنبه‌ها منطبق است"
+ },
+ {
+  "code": "H03",
+  "source": "compare_full",
+  "id": "C-clear-0",
+  "judge": {
+   "faithfulness": 5,
+   "usefulness": 5
+  },
+  "human_usefulness": 5,
+  "human_reason": "مقایسهٔ ساختاریافته با شاخص‌های کمی و انتخاب نهایی.",
+  "checked_faithfulness": 5,
+  "checked_reason": "عددها منطبق، ارجاع‌ها معتبر، برندهٔ درست"
+ },
+ {
+  "code": "H04",
+  "source": "manager_baseline",
+  "id": "M-trend-0-colloquial",
+  "judge": {
+   "faithfulness": 1,
+   "usefulness": 2
+  },
+  "human_usefulness": 2,
+  "human_reason": "سؤال دربارهٔ روند چندساله است ولی روند عددی سالانه ارائه نشده.",
+  "checked_faithfulness": 3,
+  "checked_reason": "نتیجهٔ «بهتر شده» با داده سازگار است ولی بدون پشتوانهٔ عددی"
+ },
+ {
+  "code": "H05",
+  "source": "compare_full",
+  "id": "C-close-1",
+  "judge": {
+   "faithfulness": 5,
+   "usefulness": 4
+  },
+  "human_usefulness": 4,
+  "human_reason": "مقایسهٔ خوب؛ از انتخاب قطعی بدون شواهد کافی خودداری می‌کند.",
+  "checked_faithfulness": 5,
+  "checked_reason": "عددها منطبق؛ برای اختلاف کم برنده اعلام نکرد"
+ },
+ {
+  "code": "H06",
+  "source": "compare_baseline",
+  "id": "C-close-3",
+  "judge": {
+   "faithfulness": 4,
+   "usefulness": 4
+  },
+  "human_usefulness": 3,
+  "human_reason": "نتیجه‌گیری دارد ولی امتیاز و درصد پیشنهاد را نادیده گرفته و واحد قیمت متفاوت است.",
+  "checked_faithfulness": 2,
+  "checked_reason": "گچ را «با نظرات منفی بیشتر» توصیف کرده در حالی که ۹۱٫۲٪ پیشنهاد دارد؛ برای دو گزینهٔ خیلی نزدیک قاطع برنده داده"
+ },
+ {
+  "code": "H07",
+  "source": "compare_full",
+  "id": "C-clear-1",
+  "judge": {
+   "faithfulness": 5,
+   "usefulness": 5
+  },
+  "human_usefulness": 5,
+  "human_reason": "اختلاف دو محصول را با داده و شواهد نظرات نشان می‌دهد و انتخاب روشن دارد.",
+  "checked_faithfulness": 5,
+  "checked_reason": "عددها منطبق، ارجاع‌ها معتبر، برندهٔ درست"
+ },
+ {
+  "code": "H08",
+  "source": "manager_baseline",
+  "id": "M-praises-2-formal",
+  "judge": {
+   "faithfulness": 3,
+   "usefulness": 3
+  },
+  "human_usefulness": 3,
+  "human_reason": "ترتیب اولویت‌ها با داده منطبق نیست و درصد ندارد.",
+  "checked_faithfulness": 3,
+  "checked_reason": "ترتیب جنبه‌ها غلط: کیفیت با ۴۷٫۶٪ اول است ولی آخر گفته شده"
+ },
+ {
+  "code": "H09",
+  "source": "compare_baseline",
+  "id": "C-clear-1",
+  "judge": {
+   "faithfulness": 5,
+   "usefulness": 4
+  },
+  "human_usefulness": 4,
+  "human_reason": "مقایسهٔ کیفی خوب؛ شاخص‌های کمی ندارد.",
+  "checked_faithfulness": 4,
+  "checked_reason": "برندهٔ درست؛ چند ادعای کیفی بی‌پشتوانه"
+ },
+ {
+  "code": "H10",
+  "source": "manager_baseline",
+  "id": "M-trend-1-formal",
+  "judge": {
+   "faithfulness": 1,
+   "usefulness": 2
+  },
+  "human_usefulness": 2,
+  "human_reason": "به‌جای روند سالانه، توصیف کلی نظرات است.",
+  "checked_faithfulness": 3,
+  "checked_reason": "به‌جای روند، جنبه‌ها را گفته؛ ادعای خدمات دیجی‌کالا در داده نیست"
+ },
+ {
+  "code": "H11",
+  "source": "manager_full",
+  "id": "M-trend-3-colloquial",
+  "judge": {
+   "faithfulness": 5,
+   "usefulness": 4
+  },
+  "human_usefulness": 5,
+  "human_reason": "روند را با عددهای سالانه و پیشنهاد مدیریتی نشان می‌دهد.",
+  "checked_faithfulness": 5,
+  "checked_reason": "عددهای سالانه منطبق"
+ },
+ {
+  "code": "H12",
+  "source": "manager_full",
+  "id": "M-trend-0-colloquial",
+  "judge": {
+   "faithfulness": 5,
+   "usefulness": 5
+  },
+  "human_usefulness": 5,
+  "human_reason": "دقیق و تصمیم‌ساز.",
+  "checked_faithfulness": 5,
+  "checked_reason": "عددهای سالانه منطبق"
+ },
+ {
+  "code": "H13",
+  "source": "compare_baseline",
+  "id": "C-clear-2",
+  "judge": {
+   "faithfulness": 3,
+   "usefulness": 4
+  },
+  "human_usefulness": 4,
+  "human_reason": "مقایسهٔ کاربردی با انتخاب نهایی و توجه به قیمت.",
+  "checked_faithfulness": 4,
+  "checked_reason": "برای مانتو جنس و دوخت را ضعف گفته که در داده نقطهٔ قوت است"
+ },
+ {
+  "code": "H14",
+  "source": "compare_full",
+  "id": "C-aspect-0",
+  "judge": {
+   "faithfulness": 5,
+   "usefulness": 4
+  },
+  "human_usefulness": 4,
+  "human_reason": "نقاط ضعف هر دو را بررسی کرده؛ شواهد برای تعیین برنده کافی نیست.",
+  "checked_faithfulness": 4,
+  "checked_reason": "از دو نظر نتیجهٔ کلی گرفته؛ کیفیت برای تفنگ جزو نقاط قوت هم هست"
+ },
+ {
+  "code": "H15",
+  "source": "compare_baseline",
+  "id": "C-clear-0",
+  "judge": {
+   "faithfulness": 5,
+   "usefulness": 4
+  },
+  "human_usefulness": 4,
+  "human_reason": "انتخاب و دلایل روشن؛ اطلاعات کمی مقایسه‌ای ندارد.",
+  "checked_faithfulness": 4,
+  "checked_reason": "«ارزش خرید نسبت به قیمت» با ضعف قیمت در داده نمی‌خواند"
+ },
+ {
+  "code": "H16",
+  "source": "compare_full",
+  "id": "C-aspect-1",
+  "judge": {
+   "faithfulness": 5,
+   "usefulness": 5
+  },
+  "human_usefulness": 2,
+  "human_reason": "به بخش «جذب» سؤال پاسخ نمی‌دهد و فقط مناسب بودن برای پوست چرب را بررسی کرده.",
+  "checked_faithfulness": 5,
+  "checked_reason": "عددها منطبق، ارجاع‌ها معتبر"
+ },
+ {
+  "code": "H17",
+  "source": "compare_full",
+  "id": "C-close-2",
+  "judge": {
+   "faithfulness": 5,
+   "usefulness": 5
+  },
+  "human_usefulness": 4,
+  "human_reason": "مقایسهٔ آماری و کیفی خوب؛ از انتخاب قطعی خودداری می‌کند.",
+  "checked_faithfulness": 5,
+  "checked_reason": "عددها منطبق؛ برای اختلاف کم برنده اعلام نکرد"
+ },
+ {
+  "code": "H18",
+  "source": "manager_baseline",
+  "id": "M-complaints-4-colloquial",
+  "judge": {
+   "faithfulness": 3,
+   "usefulness": 3
+  },
+  "human_usefulness": 3,
+  "human_reason": "موضوعات نارضایتی با دادهٔ مرجع تطابق کامل ندارد.",
+  "checked_faithfulness": 2,
+  "checked_reason": "شکایت اول داده قیمت با ۲۴٫۴٪ است ولی «ریزش مو» و اصل نبودن اول گفته شده"
+ },
+ {
+  "code": "H19",
+  "source": "manager_full",
+  "id": "M-trend-1-colloquial",
+  "judge": {
+   "faithfulness": 5,
+   "usefulness": 5
+  },
+  "human_usefulness": 5,
+  "human_reason": "روند سالانه با عدد و پیشنهاد مدیریتی.",
+  "checked_faithfulness": 5,
+  "checked_reason": "عددهای سالانه منطبق"
+ },
+ {
+  "code": "H20",
+  "source": "manager_full",
+  "id": "M-praises-0-colloquial",
+  "judge": {
+   "faithfulness": 5,
+   "usefulness": 4
+  },
+  "human_usefulness": 5,
+  "human_reason": "نقاط قوت با درصد و پیشنهاد اجرایی.",
+  "checked_faithfulness": 5,
+  "checked_reason": "درصدها و ترتیب جنبه‌ها منطبق"
+ }
+]

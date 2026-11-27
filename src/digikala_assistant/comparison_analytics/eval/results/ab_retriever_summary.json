@@ -1,0 +1,32 @@
+{
+ "ours": {
+  "pairs": 18,
+  "precision_at_k": 0.663,
+  "cited_relevant": 0.733,
+  "citation_precision": 1.0,
+  "faithfulness": 4.833,
+  "usefulness": 4.333,
+  "median_latency_s": 7.215,
+  "mean_tokens": 2581.833
+ },
+ "team_bm25": {
+  "pairs": 18,
+  "precision_at_k": 0.715,
+  "cited_relevant": 0.919,
+  "citation_precision": 0.985,
+  "faithfulness": 4.778,
+  "usefulness": 4.444,
+  "median_latency_s": 7.17,
+  "mean_tokens": 2160.611
+ },
+ "yalda": {
+  "pairs": 18,
+  "precision_at_k": 0.743,
+  "cited_relevant": 0.924,
+  "citation_precision": 0.981,
+  "faithfulness": 5,
+  "usefulness": 4.5,
+  "median_latency_s": 9.26,
+  "mean_tokens": 2286.556
+ }
+}
